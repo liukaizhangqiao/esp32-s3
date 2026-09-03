@@ -1,0 +1,2 @@
+source E:/Esp32-s3/talk_demo/build/gdbinit/symbols
+source E:/Esp32-s3/talk_demo/build/gdbinit/connect

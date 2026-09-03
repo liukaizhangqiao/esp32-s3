@@ -1,0 +1,180 @@
+Command: E:\Esp32-s3\esp32-s3-SDK\.espressif\v6.1\esp32-s3-SDK\python\v6.1\venv\Scripts\python.exe E:\Esp32-s3\esp32-s3-SDK\.espressif\v6.1\esp-idf\tools/idf_monitor.py -p COM8 -b 115200 --toolchain-prefix xtensa-esp32s3-elf- --target esp32s3 --revision 0 E:\Esp32-s3\talk_demo\build\hello_world.elf E:\Esp32-s3\talk_demo\build\bootloader\bootloader.elf --force-color -m 'E:\Esp32-s3\esp32-s3-SDK\.espressif\v6.1\esp32-s3-SDK\python\v6.1\venv\Scripts\python.exe' 'E:\Esp32-s3\esp32-s3-SDK\.espressif\v6.1\esp-idf\tools\idf.py' '-p' 'COM8'
+ESP-ROM:esp32s3-20210327
+Build:Mar 27 2021
+rst:0x1 (POWERON),boot:0x8 (SPI_FAST_FLASH_BOOT)
+SPIWP:0xee
+mode:DIO, clock div:1
+load:0x3fce2820,len:0x14f0
+load:0x403c8700,len:0xde4
+load:0x403cb700,len:0x2f58
+entry 0x403c8904
+[0;32mI (24) boot: ESP-IDF v6.1 2nd stage bootloader[0m
+[0;32mI (25) boot: compile time Sep  3 2026 15:16:09[0m
+[0;32mI (25) boot: Multicore bootloader[0m
+[0;32mI (25) boot: chip revision: v0.2[0m
+[0;32mI (27) boot: efuse block revision: v1.4[0m
+[0;32mI (31) boot.esp32s3: Boot SPI Speed : 80MHz[0m
+[0;32mI (35) boot.esp32s3: SPI Mode       : DIO[0m
+[0;32mI (39) boot.esp32s3: SPI Flash Size : 16MB[0m
+[0;32mI (43) boot: Enabling RNG early entropy source...[0m
+[0;32mI (47) boot: Partition Table:[0m
+[0;32mI (50) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (56) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (62) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (69) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (76) boot: End of partition table[0m
+[0;32mI (79) esp_image: segment 0: paddr=00010020 vaddr=3c020020 size=0969ch ( 38556) map[0m
+[0;32mI (93) esp_image: segment 1: paddr=000196c4 vaddr=3fc91100 size=03140h ( 12608) load[0m
+[0;32mI (96) esp_image: segment 2: paddr=0001c80c vaddr=40374000 size=0380ch ( 14348) load[0m
+[0;32mI (104) esp_image: segment 3: paddr=00020020 vaddr=42000020 size=1410ch ( 82188) map[0m
+[0;32mI (124) esp_image: segment 4: paddr=00034134 vaddr=4037780c size=09890h ( 39056) load[0m
+[0;32mI (133) esp_image: segment 5: paddr=0003d9cc vaddr=50000000 size=00024h (    36) load[0m
+[0;32mI (139) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (139) boot: Disabling RNG early entropy source...[0m
+[0;32mI (151) cpu_start: Multicore app[0m
+[0;32mI (159) cpu_start: GPIO 44 and 43 are used as console UART I/O pins[0m
+[0;32mI (160) cpu_start: Pro cpu start user code[0m
+[0;32mI (160) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (161) app_init: Application information:[0m
+[0;32mI (165) app_init: Project name:     hello_world[0m
+[0;32mI (169) app_init: App version:      280e95a-dirty[0m
+[0;32mI (174) app_init: Compile time:     Sep  3 2026 15:15:57[0m
+[0;32mI (179) app_init: ELF file SHA256:  700485ab1...[0m
+[0;32mI (183) app_init: ESP-IDF:          v6.1[0m
+[0;32mI (187) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (191) efuse_init: Max chip rev:     v0.99 [0m
+[0;32mI (195) efuse_init: Chip rev:         v0.2[0m
+[0;32mI (199) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (205) heap_init: At 3FC94C40 len 00054AD0 (338 KiB): RAM[0m
+[0;32mI (210) heap_init: At 3FCE9710 len 00005724 (21 KiB): RAM[0m
+[0;32mI (215) heap_init: At 3FCF0000 len 00008000 (32 KiB): DRAM[0m
+[0;32mI (220) heap_init: At 600FE000 len 00001FE8 (7 KiB): RTCRAM[0m
+[0;32mI (226) spi_flash: detected chip: boya[0m
+[0;32mI (229) spi_flash: flash io: dio[0m
+[0;32mI (232) sleep_gpio: Configure to isolate all GPIO pins in sleep state[0m
+[0;32mI (238) sleep_gpio: Enable automatic switching of GPIO sleep configuration[0m
+[0;32mI (245) main_task: Started on CPU0[0m
+[0;32mI (245) main_task: Calling app_main()[0m
+[0;32mI (255) button_rgb: Ready: press BOOT (GPIO0) to light RGB LED green (GPIO48)[0m
+[0;32mI (7165) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (7395) button_rgb: BOOT released: LED off[0m
+[0;32mI (8435) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (9825) button_rgb: BOOT released: LED off[0m
+[0;32mI (11055) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (11995) button_rgb: BOOT released: LED off[0m
+[0;32mI (14615) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (14825) button_rgb: BOOT released: LED off[0m
+[0;32mI (15525) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (17105) button_rgb: BOOT released: LED off[0m
+[0;32mI (17385) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (17585) button_rgb: BOOT released: LED off[0m
+[0;32mI (17785) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (17975) button_rgb: BOOT released: LED off[0m
+[0;32mI (18135) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (18485) button_rgb: BOOT released: LED off[0m
+[0;32mI (18735) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (19605) button_rgb: BOOT released: LED off[0m
+[0;32mI (20005) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (20515) button_rgb: BOOT released: LED off[0m
+[0;32mI (22605) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (25805) button_rgb: BOOT released: LED off[0m
+[0;32mI (31575) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (31735) button_rgb: BOOT released: LED off[0m
+[0;32mI (31885) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (32025) button_rgb: BOOT released: LED off[0m
+[0;32mI (32215) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (32385) button_rgb: BOOT released: LED off[0m
+[0;32mI (32595) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (32745) button_rgb: BOOT released: LED off[0m
+[0;32mI (33045) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (33195) button_rgb: BOOT released: LED off[0m
+[0;32mI (34815) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (35035) button_rgb: BOOT released: LED off[0m
+[0;32mI (35235) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (35415) button_rgb: BOOT released: LED off[0m
+[0;32mI (35565) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (35725) button_rgb: BOOT released: LED off[0m
+[0;32mI (35875) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (36005) button_rgb: BOOT released: LED off[0m
+[0;32mI (36325) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (36495) button_rgb: BOOT released: LED off[0m
+[0;32mI (36625) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (36805) button_rgb: BOOT released: LED off[0m
+[0;32mI (36965) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (37105) button_rgb: BOOT released: LED off[0m
+[0;32mI (37265) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (37415) button_rgb: BOOT released: LED off[0m
+[0;32mI (39325) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (39475) button_rgb: BOOT released: LED off[0m
+[0;32mI (39605) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (39715) button_rgb: BOOT released: LED off[0m
+[0;32mI (39835) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (39935) button_rgb: BOOT released: LED off[0m
+[0;32mI (40305) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (40405) button_rgb: BOOT released: LED off[0m
+[0;32mI (41065) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (41195) button_rgb: BOOT released: LED off[0m
+[0;32mI (41325) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (41425) button_rgb: BOOT released: LED off[0m
+[0;32mI (41525) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (41645) button_rgb: BOOT released: LED off[0m
+[0;32mI (42825) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (45025) button_rgb: BOOT released: LED off[0m
+[0;32mI (45775) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (45935) button_rgb: BOOT released: LED off[0m
+[0;32mI (46095) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (46215) button_rgb: BOOT released: LED off[0m
+[0;32mI (46395) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (46545) button_rgb: BOOT released: LED off[0m
+[0;32mI (46765) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (46905) button_rgb: BOOT released: LED off[0m
+[0;32mI (47095) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (47225) button_rgb: BOOT released: LED off[0m
+[0;32mI (48145) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (48305) button_rgb: BOOT released: LED off[0m
+[0;32mI (48455) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (48575) button_rgb: BOOT released: LED off[0m
+[0;32mI (48705) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (48835) button_rgb: BOOT released: LED off[0m
+[0;32mI (48995) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (49115) button_rgb: BOOT released: LED off[0m
+[0;32mI (49475) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (49605) button_rgb: BOOT released: LED off[0m
+[0;32mI (49725) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (49845) button_rgb: BOOT released: LED off[0m
+[0;32mI (49935) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (50035) button_rgb: BOOT released: LED off[0m
+[0;32mI (50155) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (50245) button_rgb: BOOT released: LED off[0m
+[0;32mI (50345) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (50455) button_rgb: BOOT released: LED off[0m
+[0;32mI (50765) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (50885) button_rgb: BOOT released: LED off[0m
+[0;32mI (51075) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (51185) button_rgb: BOOT released: LED off[0m
+[0;32mI (51285) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (51375) button_rgb: BOOT released: LED off[0m
+[0;32mI (52095) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (52225) button_rgb: BOOT released: LED off[0m
+[0;32mI (52775) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (52875) button_rgb: BOOT released: LED off[0m
+[0;32mI (52975) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (53085) button_rgb: BOOT released: LED off[0m
+[0;32mI (55265) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (55425) button_rgb: BOOT released: LED off[0m
+[0;32mI (55595) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (55715) button_rgb: BOOT released: LED off[0m
+[0;32mI (55945) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (56065) button_rgb: BOOT released: LED off[0m
+[0;32mI (56235) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (56335) button_rgb: BOOT released: LED off[0m
+[0;32mI (56705) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (56845) button_rgb: BOOT released: LED off[0m
+[0;32mI (57035) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (57215) button_rgb: BOOT released: LED off[0m
+[0;32mI (57905) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (58945) button_rgb: BOOT released: LED off[0m
+[0;32mI (60645) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (60855) button_rgb: BOOT released: LED off[0m
+[0;32mI (61135) button_rgb: BOOT pressed: LED green[0m
+[0;32mI (61285) button_rgb: BOOT released: LED off[0m
