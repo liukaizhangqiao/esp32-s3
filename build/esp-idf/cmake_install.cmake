@@ -284,17 +284,17 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("E:/Esp32-s3/talk_demo/build/esp-idf/esp_hal_rmt/cmake_install.cmake")
+  include("E:/Esp32-s3/talk_demo/build/esp-idf/esp_hal_i2c/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("E:/Esp32-s3/talk_demo/build/esp-idf/esp_driver_bitscrambler/cmake_install.cmake")
+  include("E:/Esp32-s3/talk_demo/build/esp-idf/esp_ringbuf/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("E:/Esp32-s3/talk_demo/build/esp-idf/esp_driver_rmt/cmake_install.cmake")
+  include("E:/Esp32-s3/talk_demo/build/esp-idf/esp_driver_i2c/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

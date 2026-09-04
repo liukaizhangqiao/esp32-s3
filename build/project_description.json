@@ -1,7 +1,7 @@
 {
     "version":            "1.3",
     "project_name":       "hello_world",
-    "project_version":    "280e95a-dirty",
+    "project_version":    "2c6bd18-dirty",
     "project_path":       "E:/Esp32-s3/talk_demo",
     "idf_path":           "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf",
     "build_dir":          "E:/Esp32-s3/talk_demo/build",
@@ -21,12 +21,12 @@
     "monitor_toolprefix": "xtensa-esp32s3-elf-",
     "c_compiler":         "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp32-s3-SDK/xtensa-esp-elf/esp-15.2.0_20251204/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc.exe",
     "config_environment" : {
-        "COMPONENT_KCONFIGS" : "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/efuse/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_common/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_driver_bitscrambler/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_driver_dma/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_driver_gpio/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_driver_rmt/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hw_support/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_libc/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_mm/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_partition/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_pm/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_rom/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_security/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_stdio/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_system/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_timer/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/freertos/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/hal/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/heap/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/log/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/mbedtls/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/pthread/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/soc/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/spi_flash/Kconfig",
+        "COMPONENT_KCONFIGS" : "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/efuse/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_common/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_driver_dma/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_driver_gpio/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_driver_i2c/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hw_support/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_libc/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_mm/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_partition/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_pm/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_ringbuf/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_rom/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_security/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_stdio/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_system/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_timer/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/freertos/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/hal/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/heap/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/log/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/mbedtls/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/pthread/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/soc/Kconfig;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/spi_flash/Kconfig",
         "COMPONENT_KCONFIGS_PROJBUILD" : "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/app_update/Kconfig.projbuild;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/bootloader/Kconfig.projbuild;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_app_format/Kconfig.projbuild;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_rom/Kconfig.projbuild;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esptool_py/Kconfig.projbuild;E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/partition_table/Kconfig.projbuild"
     },
     "common_component_reqs": [ "cxx", "esp_libc", "freertos", "esp_hw_support", "heap", "log", "soc", "hal", "esp_rom", "esp_common", "esp_system", "esp_stdio", "xtensa" ],
-    "build_components" : [ "app_update", "bootloader", "bootloader_support", "cxx", "efuse", "esp_app_format", "esp_blockdev", "esp_bootloader_format", "esp_common", "esp_driver_bitscrambler", "esp_driver_dma", "esp_driver_gpio", "esp_driver_rmt", "esp_hal_ana_conv", "esp_hal_clock", "esp_hal_dma", "esp_hal_gpio", "esp_hal_gpspi", "esp_hal_mspi", "esp_hal_pmu", "esp_hal_regi2c", "esp_hal_rmt", "esp_hal_rtc_timer", "esp_hal_security", "esp_hal_systimer", "esp_hal_timg", "esp_hal_touch_sens", "esp_hal_uart", "esp_hal_usb", "esp_hal_wdt", "esp_hw_support", "esp_libc", "esp_mm", "esp_partition", "esp_pm", "esp_rom", "esp_security", "esp_stdio", "esp_system", "esp_timer", "esp_usb_cdc_rom_console", "esptool_py", "freertos", "hal", "heap", "log", "main", "mbedtls", "partition_table", "pthread", "soc", "spi_flash", "xtensa", "" ],
-    "build_component_paths" : [ "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/app_update", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/bootloader", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/bootloader_support", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/cxx", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/efuse", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_app_format", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_blockdev", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_bootloader_format", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_common", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_driver_bitscrambler", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_driver_dma", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_driver_gpio", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_driver_rmt", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_ana_conv", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_clock", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_dma", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_gpio", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_gpspi", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_mspi", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_pmu", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_regi2c", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_rmt", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_rtc_timer", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_security", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_systimer", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_timg", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_touch_sens", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_uart", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_usb", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_wdt", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hw_support", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_libc", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_mm", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_partition", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_pm", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_rom", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_security", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_stdio", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_system", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_timer", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_usb_cdc_rom_console", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esptool_py", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/freertos", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/hal", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/heap", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/log", "E:/Esp32-s3/talk_demo/main", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/mbedtls", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/partition_table", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/pthread", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/soc", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/spi_flash", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/xtensa", "" ],
+    "build_components" : [ "app_update", "bootloader", "bootloader_support", "cxx", "efuse", "esp_app_format", "esp_blockdev", "esp_bootloader_format", "esp_common", "esp_driver_dma", "esp_driver_gpio", "esp_driver_i2c", "esp_hal_ana_conv", "esp_hal_clock", "esp_hal_dma", "esp_hal_gpio", "esp_hal_gpspi", "esp_hal_i2c", "esp_hal_mspi", "esp_hal_pmu", "esp_hal_regi2c", "esp_hal_rtc_timer", "esp_hal_security", "esp_hal_systimer", "esp_hal_timg", "esp_hal_touch_sens", "esp_hal_uart", "esp_hal_usb", "esp_hal_wdt", "esp_hw_support", "esp_libc", "esp_mm", "esp_partition", "esp_pm", "esp_ringbuf", "esp_rom", "esp_security", "esp_stdio", "esp_system", "esp_timer", "esp_usb_cdc_rom_console", "esptool_py", "freertos", "hal", "heap", "log", "main", "mbedtls", "partition_table", "pthread", "soc", "spi_flash", "xtensa", "" ],
+    "build_component_paths" : [ "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/app_update", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/bootloader", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/bootloader_support", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/cxx", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/efuse", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_app_format", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_blockdev", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_bootloader_format", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_common", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_driver_dma", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_driver_gpio", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_driver_i2c", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_ana_conv", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_clock", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_dma", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_gpio", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_gpspi", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_i2c", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_mspi", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_pmu", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_regi2c", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_rtc_timer", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_security", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_systimer", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_timg", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_touch_sens", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_uart", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_usb", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_wdt", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hw_support", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_libc", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_mm", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_partition", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_pm", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_ringbuf", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_rom", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_security", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_stdio", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_system", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_timer", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_usb_cdc_rom_console", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esptool_py", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/freertos", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/hal", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/heap", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/log", "E:/Esp32-s3/talk_demo/main", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/mbedtls", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/partition_table", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/pthread", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/soc", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/spi_flash", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/xtensa", "" ],
     "build_component_info" : {
         "app_update": {
             "alias": "idf::app_update",
@@ -163,21 +163,6 @@
             "sources": [ "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_common/src/esp_err_to_name.c" ],
             "include_dirs": [ "include" ]
         },
-        "esp_driver_bitscrambler": {
-            "alias": "idf::esp_driver_bitscrambler",
-            "target": "___idf_esp_driver_bitscrambler",
-            "prefix": "idf",
-            "dir": "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_driver_bitscrambler",
-            "type": "CONFIG_ONLY",
-            "lib": "__idf_esp_driver_bitscrambler",
-            "reqs": [ "esp_hal_dma" ],
-            "priv_reqs": [ "esp_mm", "esp_driver_dma" ],
-            "managed_reqs": [],
-            "managed_priv_reqs": [],
-            "file": "",
-            "sources": [],
-            "include_dirs": [ "include" ]
-        },
         "esp_driver_dma": {
             "alias": "idf::esp_driver_dma",
             "target": "___idf_esp_driver_dma",
@@ -208,19 +193,19 @@
             "sources": [ "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_driver_gpio/src/gpio.c", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_driver_gpio/src/gpio_glitch_filter_ops.c", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_driver_gpio/src/rtc_io.c", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_driver_gpio/src/dedic_gpio.c", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_driver_gpio/src/gpio_pin_glitch_filter.c" ],
             "include_dirs": [ "include" ]
         },
-        "esp_driver_rmt": {
-            "alias": "idf::esp_driver_rmt",
-            "target": "___idf_esp_driver_rmt",
+        "esp_driver_i2c": {
+            "alias": "idf::esp_driver_i2c",
+            "target": "___idf_esp_driver_i2c",
             "prefix": "idf",
-            "dir": "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_driver_rmt",
+            "dir": "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_driver_i2c",
             "type": "LIBRARY",
-            "lib": "__idf_esp_driver_rmt",
-            "reqs": [ "esp_hal_rmt" ],
-            "priv_reqs": [ "esp_pm", "esp_driver_gpio", "esp_driver_bitscrambler", "esp_mm", "esp_driver_dma" ],
+            "lib": "__idf_esp_driver_i2c",
+            "reqs": [ "esp_hal_i2c" ],
+            "priv_reqs": [ "esp_driver_gpio", "esp_pm", "esp_ringbuf" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
-            "file": "E:/Esp32-s3/talk_demo/build/esp-idf/esp_driver_rmt/libesp_driver_rmt.a",
-            "sources": [ "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_driver_rmt/src/rmt_common.c", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_driver_rmt/src/rmt_encoder.c", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_driver_rmt/src/rmt_encoder_bytes.c", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_driver_rmt/src/rmt_encoder_copy.c", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_driver_rmt/src/rmt_encoder_simple.c", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_driver_rmt/src/rmt_rx.c", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_driver_rmt/src/rmt_tx.c" ],
+            "file": "E:/Esp32-s3/talk_demo/build/esp-idf/esp_driver_i2c/libesp_driver_i2c.a",
+            "sources": [ "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_driver_i2c/i2c_master.c", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_driver_i2c/i2c_common.c", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_driver_i2c/i2c_slave.c" ],
             "include_dirs": [ "include" ]
         },
         "esp_hal_ana_conv": {
@@ -298,6 +283,21 @@
             "sources": [ "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_gpspi/esp32s3/spi_periph.c", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_gpspi/spi_hal.c", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_gpspi/spi_hal_iram.c", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_gpspi/spi_slave_hal.c", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_gpspi/spi_slave_hal_iram.c", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_gpspi/spi_slave_hd_hal.c" ],
             "include_dirs": [ "include", "esp32s3/include" ]
         },
+        "esp_hal_i2c": {
+            "alias": "idf::esp_hal_i2c",
+            "target": "___idf_esp_hal_i2c",
+            "prefix": "idf",
+            "dir": "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_i2c",
+            "type": "LIBRARY",
+            "lib": "__idf_esp_hal_i2c",
+            "reqs": [ "soc", "hal" ],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "E:/Esp32-s3/talk_demo/build/esp-idf/esp_hal_i2c/libesp_hal_i2c.a",
+            "sources": [ "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_i2c/i2c_hal.c", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_i2c/i2c_hal_iram.c", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_i2c/esp32s3/i2c_periph.c" ],
+            "include_dirs": [ "esp32s3/include", "include" ]
+        },
         "esp_hal_mspi": {
             "alias": "idf::esp_hal_mspi",
             "target": "___idf_esp_hal_mspi",
@@ -341,21 +341,6 @@
             "managed_priv_reqs": [],
             "file": "",
             "sources": [],
-            "include_dirs": [ "include", "esp32s3/include" ]
-        },
-        "esp_hal_rmt": {
-            "alias": "idf::esp_hal_rmt",
-            "target": "___idf_esp_hal_rmt",
-            "prefix": "idf",
-            "dir": "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_rmt",
-            "type": "LIBRARY",
-            "lib": "__idf_esp_hal_rmt",
-            "reqs": [ "soc", "hal" ],
-            "priv_reqs": [],
-            "managed_reqs": [],
-            "managed_priv_reqs": [],
-            "file": "E:/Esp32-s3/talk_demo/build/esp-idf/esp_hal_rmt/libesp_hal_rmt.a",
-            "sources": [ "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_rmt/rmt_hal.c", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_hal_rmt/esp32s3/rmt_periph.c" ],
             "include_dirs": [ "include", "esp32s3/include" ]
         },
         "esp_hal_rtc_timer": {
@@ -553,6 +538,21 @@
             "sources": [ "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_pm/pm_locks.c", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_pm/pm_trace.c", "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_pm/pm_impl.c" ],
             "include_dirs": [ "include" ]
         },
+        "esp_ringbuf": {
+            "alias": "idf::esp_ringbuf",
+            "target": "___idf_esp_ringbuf",
+            "prefix": "idf",
+            "dir": "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_ringbuf",
+            "type": "LIBRARY",
+            "lib": "__idf_esp_ringbuf",
+            "reqs": [],
+            "priv_reqs": [],
+            "managed_reqs": [],
+            "managed_priv_reqs": [],
+            "file": "E:/Esp32-s3/talk_demo/build/esp-idf/esp_ringbuf/libesp_ringbuf.a",
+            "sources": [ "E:/Esp32-s3/esp32-s3-SDK/.espressif/v6.1/esp-idf/components/esp_ringbuf/ringbuf.c" ],
+            "include_dirs": [ "include" ]
+        },
         "esp_rom": {
             "alias": "idf::esp_rom",
             "target": "___idf_esp_rom",
@@ -726,11 +726,11 @@
             "type": "LIBRARY",
             "lib": "__idf_main",
             "reqs": [],
-            "priv_reqs": [ "esp_driver_gpio", "esp_driver_rmt" ],
+            "priv_reqs": [ "esp_driver_i2c" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "file": "E:/Esp32-s3/talk_demo/build/esp-idf/main/libmain.a",
-            "sources": [ "E:/Esp32-s3/talk_demo/main/hello_world_main.c" ],
+            "sources": [ "E:/Esp32-s3/talk_demo/main/oled_test_main.c" ],
             "include_dirs": []
         },
         "mbedtls": {
@@ -2731,7 +2731,7 @@
             "source": "project_components",
             "lib": "__idf_main",
             "reqs": [],
-            "priv_reqs": [ "esp_driver_gpio", "esp_driver_rmt" ],
+            "priv_reqs": [ "esp_driver_i2c" ],
             "managed_reqs": [],
             "managed_priv_reqs": [],
             "include_dirs": []

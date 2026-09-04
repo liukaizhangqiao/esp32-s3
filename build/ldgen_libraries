@@ -86,8 +86,10 @@ E:/Esp32-s3/talk_demo/build/esp-idf/freertos/libfreertos.a
 E:/Esp32-s3/talk_demo/build/esp-idf/esp_libc/libesp_libc.a
 E:/Esp32-s3/talk_demo/build/esp-idf/pthread/libpthread.a
 E:/Esp32-s3/talk_demo/build/esp-idf/cxx/libcxx.a
-E:/Esp32-s3/talk_demo/build/esp-idf/esp_hal_rmt/libesp_hal_rmt.a
-E:/Esp32-s3/talk_demo/build/esp-idf/esp_driver_rmt/libesp_driver_rmt.a
-E:/Esp32-s3/talk_demo/build/esp-idf/esp_hal_rmt/libesp_hal_rmt.a
+E:/Esp32-s3/talk_demo/build/esp-idf/esp_hal_i2c/libesp_hal_i2c.a
+E:/Esp32-s3/talk_demo/build/esp-idf/esp_ringbuf/libesp_ringbuf.a
+E:/Esp32-s3/talk_demo/build/esp-idf/esp_driver_i2c/libesp_driver_i2c.a
+E:/Esp32-s3/talk_demo/build/esp-idf/esp_hal_i2c/libesp_hal_i2c.a
+E:/Esp32-s3/talk_demo/build/esp-idf/esp_ringbuf/libesp_ringbuf.a
 E:/Esp32-s3/talk_demo/build/esp-idf/main/libmain.a
-E:/Esp32-s3/talk_demo/build/esp-idf/esp_driver_rmt/libesp_driver_rmt.a
+E:/Esp32-s3/talk_demo/build/esp-idf/esp_driver_i2c/libesp_driver_i2c.a

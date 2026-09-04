@@ -1083,7 +1083,7 @@ rule C_STATIC_LIBRARY_LINKER____idf_cxx_
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER____idf_esp_hal_rmt_unscanned_
+rule C_COMPILER____idf_esp_hal_i2c_unscanned_
   depfile = $DEP_FILE
   deps = gcc
   command = ccache ${LAUNCHER}${CODE_CHECK}E:\Esp32-s3\esp32-s3-SDK\.espressif\v6.1\esp32-s3-SDK\xtensa-esp-elf\esp-15.2.0_20251204\xtensa-esp-elf\bin\xtensa-esp32s3-elf-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -1093,7 +1093,7 @@ rule C_COMPILER____idf_esp_hal_rmt_unscanned_
 #############################################
 # Rule for linking C static library.
 
-rule C_STATIC_LIBRARY_LINKER____idf_esp_hal_rmt_
+rule C_STATIC_LIBRARY_LINKER____idf_esp_hal_i2c_
   command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && E:\Esp32-s3\esp32-s3-SDK\.espressif\v6.1\esp32-s3-SDK\cmake\4.0.3\bin\cmake.exe -E rm -f $TARGET_FILE && E:\Esp32-s3\esp32-s3-SDK\.espressif\v6.1\esp32-s3-SDK\xtensa-esp-elf\esp-15.2.0_20251204\xtensa-esp-elf\bin\xtensa-esp32s3-elf-ar.exe qc $TARGET_FILE $LINK_FLAGS $in && E:\Esp32-s3\esp32-s3-SDK\.espressif\v6.1\esp32-s3-SDK\xtensa-esp-elf\esp-15.2.0_20251204\xtensa-esp-elf\bin\xtensa-esp32s3-elf-ranlib.exe $TARGET_FILE && $POST_BUILD"
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
@@ -1102,7 +1102,7 @@ rule C_STATIC_LIBRARY_LINKER____idf_esp_hal_rmt_
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER____idf_esp_driver_rmt_unscanned_
+rule C_COMPILER____idf_esp_ringbuf_unscanned_
   depfile = $DEP_FILE
   deps = gcc
   command = ccache ${LAUNCHER}${CODE_CHECK}E:\Esp32-s3\esp32-s3-SDK\.espressif\v6.1\esp32-s3-SDK\xtensa-esp-elf\esp-15.2.0_20251204\xtensa-esp-elf\bin\xtensa-esp32s3-elf-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
@@ -1112,7 +1112,26 @@ rule C_COMPILER____idf_esp_driver_rmt_unscanned_
 #############################################
 # Rule for linking C static library.
 
-rule C_STATIC_LIBRARY_LINKER____idf_esp_driver_rmt_
+rule C_STATIC_LIBRARY_LINKER____idf_esp_ringbuf_
+  command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && E:\Esp32-s3\esp32-s3-SDK\.espressif\v6.1\esp32-s3-SDK\cmake\4.0.3\bin\cmake.exe -E rm -f $TARGET_FILE && E:\Esp32-s3\esp32-s3-SDK\.espressif\v6.1\esp32-s3-SDK\xtensa-esp-elf\esp-15.2.0_20251204\xtensa-esp-elf\bin\xtensa-esp32s3-elf-ar.exe qc $TARGET_FILE $LINK_FLAGS $in && E:\Esp32-s3\esp32-s3-SDK\.espressif\v6.1\esp32-s3-SDK\xtensa-esp-elf\esp-15.2.0_20251204\xtensa-esp-elf\bin\xtensa-esp32s3-elf-ranlib.exe $TARGET_FILE && $POST_BUILD"
+  description = Linking C static library $TARGET_FILE
+  restat = $RESTAT
+
+
+#############################################
+# Rule for compiling C files.
+
+rule C_COMPILER____idf_esp_driver_i2c_unscanned_
+  depfile = $DEP_FILE
+  deps = gcc
+  command = ccache ${LAUNCHER}${CODE_CHECK}E:\Esp32-s3\esp32-s3-SDK\.espressif\v6.1\esp32-s3-SDK\xtensa-esp-elf\esp-15.2.0_20251204\xtensa-esp-elf\bin\xtensa-esp32s3-elf-gcc.exe $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out -c $in
+  description = Building C object $out
+
+
+#############################################
+# Rule for linking C static library.
+
+rule C_STATIC_LIBRARY_LINKER____idf_esp_driver_i2c_
   command = C:\Windows\system32\cmd.exe /C "$PRE_LINK && E:\Esp32-s3\esp32-s3-SDK\.espressif\v6.1\esp32-s3-SDK\cmake\4.0.3\bin\cmake.exe -E rm -f $TARGET_FILE && E:\Esp32-s3\esp32-s3-SDK\.espressif\v6.1\esp32-s3-SDK\xtensa-esp-elf\esp-15.2.0_20251204\xtensa-esp-elf\bin\xtensa-esp32s3-elf-ar.exe qc $TARGET_FILE $LINK_FLAGS $in && E:\Esp32-s3\esp32-s3-SDK\.espressif\v6.1\esp32-s3-SDK\xtensa-esp-elf\esp-15.2.0_20251204\xtensa-esp-elf\bin\xtensa-esp32s3-elf-ranlib.exe $TARGET_FILE && $POST_BUILD"
   description = Linking C static library $TARGET_FILE
   restat = $RESTAT
